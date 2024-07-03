@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player_football</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- <h1 class="text-white">Select Your Best Five</h1> -->
+    <div class="flex justify-around items-center gap-[100px]  h-[400px]">
+        <div class="w-1/4">
+            <img src="https://img.freepik.com/premium-photo/portrait-young-man-football-playing-motion-training-isolated-black-studio-background-kicking-ball_155003-46280.jpg"
+                class="h-[300px] w-[300px] object-cover " alt="mbappy">
+        </div> 
+        <div class="flex justify-center w-2/4 ">
+            <div>
+
+                <h1 class=" font text-orange-500 text-6xl  text-center ">Select Your Best Five</h1>
+                <p class="text-white text-center pt-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                    nostrud amet.</p>
+            </div>
+        </div>
+
+        <div class="w-1/4">
+            <div class="pt-10 pr-10">
+                <img src="https://imgv3.fotor.com/images/side/teamwork-football-logo.png" alt="mbappy"
+                    class="h-[100px] ">
+            </div>
+            <div class="relative">
+                <div class="flex justify-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="174" height="335" viewBox="0 0 174 335" fill="none">
+                        <path
+                            d="M17.5 335C-26.8391 243.667 18.8987 134.14 115.023 101.463L410.563 0.99841C412.004 0.508512 413.5 1.57996 413.5 3.10209V330C413.5 332.761 411.261 335 408.5 335H17.5Z"
+                            fill="white" fill-opacity="0.1" />
+
+                    </svg>
+                </div>
+                <div class="absolute bottom-0 right-0 text- ">
+                    <img class="" src="/img/soccer-goal-top-png-8 4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- player content -->
+<div  class="bg-stone-900 pb-5">
+
+
+    <div class="mx-10 flex justify-center mt-10">
+
+        <div class="grid grid-cols-3 gap-4 mt-5 ">
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://editorial.uefa.com/resources/0285-18f032eae943-7a051aab11a0-1000/fbl-euro-2024-qualifer-svk-por.jpeg"  alt="Shoes"
+                        class="h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2"><span id="playerName1">Cristiano Ronaldo</span></h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  115 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-400 transition-all duration-300 " id="player1">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://i.insider.com/634d727e6bd527001914ecfd?width=1136&format=jpeg" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName2">Vítor Machado</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>30 Goals .  90 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player2">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://fifpro.org/media/5chb3dva/lionel-messi_imago1019567000h.jpg?rxy=0.32986930611281567,0.18704579979466449&rnd=133378758718600000" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName3">Lionel Messi</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  117 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player3">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCZOxzjK-ZwUZlLsHTTnuGNiyW4OXgJuEyB-24eIxbGyQ9AVEOtzy9-U0BzMOv7-hsi0k&usqp=CAU"  alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName4">Kylian Mbappé</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  115 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player4">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://d3nfwcxd527z59.cloudfront.net/content/uploads/2023/07/18100655/theo-walcott-southampton-2023.jpg" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName5">Renato Sanches</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>30 Goals .  90 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player5">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://www.scoutedftbl.com/wp-content/uploads/2022/09/best-young-teenagers.jpg" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName6">Sergio Ramos</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  117 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player6">Select</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCZOxzjK-ZwUZlLsHTTnuGNiyW4OXgJuEyB-24eIxbGyQ9AVEOtzy9-U0BzMOv7-hsi0k&usqp=CAU"  alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover " />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName7">Kylian Mbappé</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  115 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player7">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://d3nfwcxd527z59.cloudfront.net/content/uploads/2023/07/18100655/theo-walcott-southampton-2023.jpg" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName8">Renato Sanches</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>30 Goals .  90 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player8">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black">
+                <figure class="px-5 pt-5">
+                    <img src="https://www.scoutedftbl.com/wp-content/uploads/2022/09/best-young-teenagers.jpg" alt="Shoes"
+                        class="rounded-xl h-[250px] object-cover" />
+                </figure>
+                <div class="card-body items-center text-center ">
+                    <h2 class="card-title text-white text-xl py-2" id="playerName9">Sergio Ramos</h2>
+                    <div class="flex justify-center text-white">
+                        <h2>35 Goals .  117 Assits</h2>
+                    </div>
+                    <div class="py-2 bg-white rounded-xl w-[90%] mx-auto">
+                        <button class="btn btn-primary w-full hover:bg-gray-200 " id="player9">Select</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+<!-- right part -->
+        <div class="lg:w-1/3">
+            <div class="card shadow-xl bg-black mx-5 my-5 text-white">
+                <div class="card-body">
+                  <div class="flex justify-center">
+                    <h2 class="card-title text-center underline decoration-double decoration-orange-700">Selected - V</h2>
+                  </div>
+                  <p id="playerName"></p>
+                  <!-- <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div> -->
+                </div>
+            </div>
+
+            <div class="card shadow-xl bg-black mx-5 my-10 text-white">
+                <div class="card-body">
+                  <div class="flex justify-center">
+                    <h2 class="card-title text-center pb-10 underline decoration-double decoration-orange-700">Budget </h2>
+                  </div>
+                  
+                  <div>
+
+                      <label for="" class="pr-3">Per Player: </label><input type="text" id="perPlayer" placeholder=" amount" class=" w-2/4 rounded border border-white bg-black" />
+                  </div>
+                  <div class="card-actions py-3 flex justify-center">
+                    <button class=" px-14 py-1 bg-primary rounded" id="calculatePlayer">Calculate</button>
+                  </div>
+
+                  <div>
+                    <p>Player Expenses: <span class="pl-5">$</span><Span id="expenses">0</Span></p>
+                  </div>
+                  <div class="pt-5">
+
+                    <label for="" class="pr-5">Manager: </label><input type="text" id="managerCost" placeholder=" amount" class=" w-2/4 rounded border border-white bg-black" />
+                </div>
+                <div class="pt-5">
+
+                    <label for="" class="pr-10">Coach: </label><input type="text" placeholder=" amount" id="coachCost" class=" w-2/4 rounded border border-white bg-black" />
+                </div>
+
+                <div class="card-actions py-3 flex justify-center">
+                    <button class=" px-14 py-1 bg-primary rounded" id="calculateTotal">Calculate Total</button>
+                  </div>
+
+                  <div>
+                    <p>Total Amount: <span class="pl-5">$</span><Span id="totalAmount">0</Span></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="flex justify-center ">
+           <p class="py-5"> @copy Right.. Asma Akter</p>
+    </div>
+</footer>
+<script src="/playerSelect.js"></script>
+<script src="https://cdn.tailwindcss.com"></script> 
+
+</body>
+
+</html>
